@@ -9,7 +9,7 @@ This project is a machine learning model built using the Random Forest Regressio
 In the "source code" file, I have provided an example using Tata Motors. This will allow you to see how the project works with pre-existing input for a specific date and its corresponding output.
 # Run the Code for Other Companies:
 To predict stock prices for other companies, open the "source code" file and modify the CSV file name (which contains the dataset for the desired company) on line 9 of the code (data = pd.read_csv('.csv')). Upload the relevant dataset and run the code. After entering your desired date, you will see the predicted stock price for that day.
-I have provided datasets for Nifty 50 companies in the "nifty50" file, where you can download the necessary datasets.
+I have provided datasets for Nifty 50 in the "nifty50" file, where you can download the necessary datasets.
 
 The code currently predicts prices for the next year. To adjust this, you can change the number of days on line 26 (future_days = 365).
 
