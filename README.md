@@ -8,13 +8,16 @@ Visualization: The project visualizes both the actual and predicted stock prices
 # Example with Tata Motors:
 In the "source code" file, I have provided an example using Tata Motors. This will allow you to see how the project works with pre-existing input for a specific date and its corresponding output.
 # Run the Code for Other Companies:
-If you'd like to predict stock prices for other companies, download the relevant dataset and follow the upcoming steps. Open the "source code" file and enter the name of the csv file(that contains the datasets)in the 9th line of the code(data = pd.read_csv('.csv')). I have provided datasets for nifty50 in the "nifty50" file. You can upload the desired dataset and run the code by entering your desired date to see the output.
+To predict stock prices for other companies, open the "source code" file and modify the CSV file name (which contains the dataset for the desired company) on line 9 of the code (data = pd.read_csv('.csv')). Upload the relevant dataset and run the code. After entering your desired date, you will see the predicted stock price for that day.
+I have provided datasets for Nifty 50 companies in the "nifty50" file, where you can download the necessary datasets.
+
+The code currently predicts prices for the next year. To adjust this, you can change the number of days on line 26 (future_days = 365).
 
 # Steps to Run the Projecct in Google Colab
-1.Transfer the code from the source code file into a new Google Colab notebook.
-2.Upload the dataset files to the Colab environment.
-3.Ensure all necessary libraries are imported by running the first cell.
-4.Execute the cells to run the code and make predictions.
+1. Transfer the code from the source code file into a new Google Colab notebook.
+2. Upload the dataset files to the Colab environment.
+3. Ensure all necessary libraries are imported by running the first cell.
+4. Execute the cells to run the code and make predictions.
 
 # Steps to Run the Project in VS Code
 1. Open the `source_code.py` file in VS Code.
