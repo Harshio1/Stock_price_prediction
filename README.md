@@ -1,9 +1,9 @@
 # Stock-predictions
 This project is a machine learning model built using the Random Forest Regression algorithm to predict stock prices. It utilizes historical stock data, including previous closing prices, highs, lows, and trading volume. By leveraging these trends, the model generates future price predictions to help investors make informed decisions.
 # Features
-Random Forest Regression Model: Built using historical data to forecast future stock prices.
-Adaptable for any company: By uploading different datasets, the model can predict stock prices for any company.
-Visualization: The project visualizes both the actual and predicted stock prices over time.
+1. Random Forest Regression Model: Built using historical data to forecast future stock prices.
+2. Adaptable for any company: By uploading different datasets, the model can predict stock prices for any company.
+3. Visualization: The project visualizes both the actual and predicted stock prices over time.
 # How to Use:
 # Example with Tata Motors:
 In the "source code" file, I have provided an example using Tata Motors. This will allow you to see how the project works with pre-existing input for a specific date and its corresponding output.
