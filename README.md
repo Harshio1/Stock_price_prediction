@@ -24,7 +24,7 @@ The code currently predicts prices for the next year. To adjust this, you can ch
 2. Ensure you have the required packages installed.
 3. Place the dataset files in the same directory as the script.
 4. Run the script from the terminal.
-5. 
+   
 # Steps to Run the Project in Jupyter Notebook
 1. Open the Jupyter Notebook containing the code.
 2. Ensure you have the required packages installed in your environment.
