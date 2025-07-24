@@ -1,4 +1,4 @@
-# Stock price predictions
+# Stock price prediction
 This project is a machine learning model built using the Random Forest Regression algorithm to predict stock prices. It utilizes historical stock data, including previous closing prices, highs, lows, and trading volume. By leveraging these trends, the model generates future price predictions to help investors make informed decisions.
 # Features
 1. Random Forest Regression Model: Built using historical data to forecast future stock prices.
