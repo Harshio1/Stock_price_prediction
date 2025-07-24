@@ -13,7 +13,7 @@ I have provided datasets for Nifty 50 in the "nifty50" file, where you can downl
 
 The code currently predicts prices for the next year. To adjust this, you can change the number of days on line 26 (future_days = 365).
 
-# Steps to Run the Projecct in Google Colab
+# Steps to Run the Project in Google Colab
 1. Transfer the code from the source code file into a new Google Colab notebook.
 2. Upload the dataset files to the Colab environment.
 3. Ensure all necessary libraries are imported by running the first cell.
